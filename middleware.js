@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 import { jwtVerify } from "jose"
 
 export async function middleware(request) {
-    const token = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InQzOG1pd2FAZ21haWwuY29tIiwiZXhwIjoxNzE0NDY3NjY0fQ.7mDpIYmOKF-YxLvZkpQp-GZKMPqchzvbHOYmX2m8j9A"
+    const token = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InQzOG1pd2FAZ21haWwuY29tIiwiZXhwIjoxNzE1MDQzOTg1fQ.bbBq_sdG8YqyVWRp5YR-di3PnxigfJSpfWV_aTAvgLQ"
     //const token = await request.headers.get("Authorization")?.split(" ")[1]
     
     if(!token){
